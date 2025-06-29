@@ -2,8 +2,6 @@
 
 > A sleek, professional, and secure portfolio site crafted to showcase my journey as a cybersecurity enthusiast and developer.
 
-![Cyberfolio Banner](https://your-banner-image-link-if-any.com)
-
 ---
 
 ## 🌐 About Cyberfolio
