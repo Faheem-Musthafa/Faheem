@@ -3,72 +3,80 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate cybersecurity enthusiast and developer with a focus on building secure, efficient, and innovative solutions. With expertise in Python scripting, network packet analysis, encryption techniques, and web development, I aim to bridge the gap between robust security and seamless user experience. My projects span encryption tools, automated security scripts, and portfolio development, showcasing a commitment to both functionality and security. Driven by continuous learning and problem-solving, I strive to create impactful tools and applications that prioritize reliability and performance.`;
+export const HERO_CONTENT = `I'm a cybersecurity enthusiast and developer with a passion for building secure, high-performance, and user-centric applications. My expertise lies in Python scripting, web security, network analysis, and automation. I focus on creating tools that merge functionality with strong security principles—from encryption utilities to packet sniffers and portfolio websites. I’m driven by a mindset of continuous learning, ethical hacking, and creative problem-solving to craft impactful solutions that prioritize resilience and real-world utility.`;
 
-export const ABOUT_TEXT = `I am a dedicated and adaptable cybersecurity enthusiast and developer with a passion for creating secure and efficient solutions. With a strong foundation in Python scripting, encryption techniques, network analysis, and web development, I enjoy tackling complex challenges and bringing ideas to life. My journey into cybersecurity and development began with a deep curiosity about how systems work and a drive to make them better.I thrive in collaborative environments, where I can combine technical expertise with creative problem-solving to deliver impactful results. Beyond coding, I enjoy exploring the latest advancements in cybersecurity, participating in CTFs, and working on open-source projects to give back to the community.`;
+export const ABOUT_TEXT = `I'm a driven and detail-oriented cybersecurity enthusiast and developer, constantly exploring the intersection of technology and security. My journey began with a fascination for how systems work—and how they break. Over time, I've honed my skills in Python scripting, encryption methods, network traffic analysis, and full-stack web development. 
+
+Whether it's building custom tools, automating security workflows, or designing secure interfaces, I strive to ensure every project is both technically sound and user-friendly. I actively participate in CTFs, contribute to open-source initiatives, and stay updated with the latest in offensive and defensive security. Outside of coding, I love diving into cybersecurity research and reverse engineering challenges.`;
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "2024 – 2024",
     role: "Cybersecurity Intern",
     company: "Prodigy InfoTech",
-    description: `Developed a Python-based encryption tool using Caesar Cipher to secure messages. Designed a user-friendly interface for encryption and decryption, ensuring an intuitive experience. Conducted testing to ensure the accuracy and reliability of the tool.`,
+    description: `Built an intuitive Python encryption tool based on Caesar Cipher. Focused on usability, accurate encoding/decoding, and simple GUI deployment. Tested extensively to ensure reliability and data integrity across inputs.`,
     technologies: ["Python", "Tkinter", "Cryptography"],
   },
   {
-    year: "2023 - 2024",
-    role: "Cybersecurity Enthusiast",
-    company: "Freelance Projects",
-    description: `Worked on various cybersecurity-focused projects, including network packet analysis tools, password complexity checkers, and automated scripts. Built and optimized tools to identify vulnerabilities and improve security measures.`,
-    technologies: ["Python", "Wireshark", "Bash"],
+    year: "2023 – 2024",
+    role: "Cybersecurity Developer",
+    company: "Freelance & Self-Initiated Projects",
+    description: `Developed cybersecurity tools targeting network sniffing, fuzzing, and password strength validation. Automated routine security tasks using custom Python and Bash scripts, and analyzed vulnerabilities in network traffic.`,
+    technologies: ["Python", "Wireshark", "Scapy", "Bash"],
   },
   {
     year: "2023",
     role: "Web Developer",
-    company: "Personal Portfolio Project",
-    description: `Designed and developed a responsive portfolio website to showcase skills and projects. Integrated interactive elements to enhance user engagement and highlight cybersecurity expertise.`,
-    technologies: ["HTML", "CSS", "JavaScript"],
+    company: "Personal Branding Project",
+    description: `Designed and deployed a responsive portfolio website to showcase cybersecurity projects and achievements. Focused on performance, accessibility, and modern design trends.`,
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
   },
   {
-    year: "2022 - 2023",
-    role: "Python Developer",
+    year: "2022 – 2023",
+    role: "Python Automation Developer",
     company: "University Projects",
-    description: `Created tools and scripts for various use cases, including pixel manipulation and password complexity analysis. Focused on automation and efficiency while adhering to best coding practices.`,
-    technologies: ["Python", "Pillow", "Regex"],
+    description: `Created automation scripts and utilities for security-related use cases such as password complexity scoring, image processing, and basic system monitoring. Emphasized clean code and efficient logic.`,
+    technologies: ["Python", "Pillow", "Regex", "OS"],
   },
 ];
+
 
 
 export const PROJECTS = [
   {
-    title: "Encryption Tool",
+    title: "ShadowHound",
     image: project1,
     description:
-      "A Python-based encryption and decryption tool utilizing the Caesar Cipher. Designed with a user-friendly interface for secure message communication.",
-    technologies: ["Python", "Tkinter", "Cryptography"],
+      "A black-box web vulnerability scanner built in Python that automates reconnaissance, scanning, and fuzzing using custom wordlists and payloads.",
+    technologies: ["Python", "Requests", "BeautifulSoup", "Threading"],
+    codeLink: "https://github.com/Faheem-Musthafa/ShadowHound",
   },
   {
-    title: "Network Packet Analyzer",
+    title: "CodeX - WiFi Pentest Toolkit",
     image: project2,
     description:
-      "A tool for analyzing network traffic to detect vulnerabilities and potential security threats. Features packet filtering and protocol analysis.",
-    technologies: ["Python", "Wireshark", "Scapy"],
+      "A powerful toolkit for automated WiFi penetration testing, including handshake capture, PMKID attack, and Evil Twin access point deployment.",
+    technologies: ["Bash", "Python", "Aircrack-ng", "hostapd"],
+    codeLink: "https://github.com/Faheem-Musthafa/CodeX",
   },
   {
-    title: "Portfolio Website",
+    title: "Cyberfolio",
     image: project3,
     description:
-      "A personal portfolio website showcasing cybersecurity projects, technical skills, and professional experience.",
-    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      "A futuristic and responsive portfolio site showcasing cybersecurity expertise, real-world projects, and certification progress.",
+    technologies: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
+    codeLink: "https://github.com/Faheem-Musthafa/Faheem",
   },
   {
-    title: "Password Complexity Checker",
+    title: "PassGuardian",
     image: project4,
     description:
-      "An automated tool to evaluate password strength and suggest improvements based on complexity standards.",
-    technologies: ["Python", "Regex", "Flask"],
+      "A Flask-based tool that checks password strength, identifies reused or weak patterns, and offers real-time security recommendations.",
+    technologies: ["Flask", "Regex", "Bootstrap", "Jinja2"],
+    codeLink: "https://github.com/Faheem-Musthafa/PassGuardian",
   },
 ];
+
 
 
 export const CONTACT = {

@@ -17,9 +17,6 @@ const Navbar = () => {
             <a href="https://github.com/Faheem-Musthafa" target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a>
-            <a href="https://twitter.com/your-username" target="_blank" rel="noopener noreferrer">
-              <FaTwitterSquare />
-            </a>
             <a href="https://www.instagram.com/faheem_cp" target="_blank" rel="noopener noreferrer">
               <FaInstagram />
             </a>

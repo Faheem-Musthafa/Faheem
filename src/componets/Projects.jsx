@@ -29,7 +29,18 @@ const Projects = () => {
                     {project.technologies.map ((tech, index) => 
                     <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800">{tech}</span>
                     )}
+                    <div className="mt-4">
+                        <a 
+                            href={project.codeLink} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-purple-400 hover:text-purple-300 text-sm transition-colors duration-200"
+                        >
+                            View Code →
+                        </a>
+                    </div>
                     </motion.div>
+                    
                 </div>
             ) )}
         </div>
